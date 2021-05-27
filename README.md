@@ -8,7 +8,7 @@ A no-nonsense Cypress template for copying into new or existing projects, with s
   - The `"chromeWebSecurity"` property has been set to `false` so that example tests do not fail due to CORS policy for third party analytics. It may not be needed for your project. Note also that this setting has no effect in Firefox, so your tests may fail in Firefox if they rely upon this setting.
 - A `cy.login()` [custom command](https://docs.cypress.io/api/cypress-api/custom-commands.html), making use of an `auth.json` [fixture](https://docs.cypress.io/api/commands/fixture.html).
 - A `cy.viewportPreset()` custom command by [Cameronjpr](https://github.com/Cameronjpr) that extends the [cy.viewport()](https://docs.cypress.io/api/commands/viewport) command to add additional viewport presets.
-- Some example smoke tests for [the-internet.herokuapp.com](https://the-internet.herokuapp.com/) in the `sample-test.js` file, with inline documentation.
+- Some example smoke tests for [the-internet.herokuapp.com](https://the-internet.herokuapp.com/) in the `login-test.js` file, with inline documentation.
 - A `routes.js` file with examples, demonstrating how [cy.intercept()](https://docs.cypress.io/api/commands/intercept.html) can be used for conditional waits.
 - Empty `before()` and `beforeEach()` [Mocha hooks](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests.html#Hooks) in the `index.js` file. You could use these to run Cypress commands that run before each test run or at the start of every test.
 - A `tsconfig.json` file in the `/tests/cypress` folder that will provide Intellisense code completion in supported code editors.
@@ -28,7 +28,7 @@ A no-nonsense Cypress template for copying into new or existing projects, with s
 - Copy over the `/tests/` directory, or just the enclosed `/tests/cypress/` directory if you already have a tests directory.
   - (If you decide to put the `cypress/` directory somewhere other than `/tests/`, adjust the relevant `cypress.json` values accordingly.
 - Browse to your project's root directory from the command line, then run `npx cypress open` to download Cypress to your machine and start the UI Test Runner.
-  - Select `sample-test.js` from the list of tests, then watch them run and (hopefully!) pass
+  - Select `login-test.js` from the list of tests, then watch them run and (hopefully!) pass
   - You can stop the UI Test Runner simply by closing its window(s), or by typing `Ctrl + C` at the command line.
 - Update the `baseUrl` in `cypress.json` to your project's local/integration environment, then start [writing tests](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html)!
   - Tests that are currently open in the UI Test Runner will automatically restart whenever a relevant file is modified, so you can see your tests pass or fail in real time.

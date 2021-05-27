@@ -1,25 +1,27 @@
-{
-  "name": "cypress-starter-kit",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "cypress": "cypress run",
-    "cypress:open": "cypress open"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "keywords": [
-    ""
-  ],
-  "author": "James Sheasby Thomas (@RightSaidJames)",
-  "license": "MIT",
-  "devDependencies": {
-    "cypress": "^6.8.0"
+  {
+    "name": "cypress-starter-kit",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+      "test": "tests"
+    },
+    "scripts": {
+      "cypress": "cypress run",
+      "cypress:open": "cypress open",
+      "cy:run:chrome": "cypress run --browser chrome",
+      "cy:run:firefox": "cypress run --browser firefox"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      ""
+    ],
+    "author": "James Sheasby Thomas (@RightSaidJames)",
+    "license": "MIT",
+    "devDependencies": {
+      "cypress": "^6.8.0"
+    }
   }
-}

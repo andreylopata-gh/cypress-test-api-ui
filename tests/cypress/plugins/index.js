@@ -18,4 +18,20 @@
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+    on('before:browser:launch', (browser = {}, launchOptions) => {
+        launchOptions.args.push(' --incognito');
+
+        if (browser.family === 'chromium' && browser.name !== 'electron') {
+            launchOptions.args.push('--start-fullscreen')
+
+            return launchOptions
+        }
+
+        if (browser.name === 'electron') {
+            launchOptions.preferences.fullscreen = true
+
+            return launchOptions
+        }
+
+    })
 }
