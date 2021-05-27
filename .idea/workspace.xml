@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d92c09-29e9-411d-a370-a419f716ad46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/cypress/integration/login-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/cypress/pages/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/cypress/integration/sample-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/cypress/plugins/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/tests/login-api-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/cypress/integration/login-api-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +47,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../proj2/connex" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/cypress/integration" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Test2\cypress-starter-kit\tests\cypress\integration" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +76,11 @@
       <workItem from="1622072345749" duration="1778000" />
       <workItem from="1622074158798" duration="1789000" />
       <workItem from="1622075980796" duration="1778000" />
-      <workItem from="1622077792445" duration="1113000" />
+      <workItem from="1622077792445" duration="1745000" />
+      <workItem from="1622080208377" duration="1778000" />
+      <workItem from="1622082026700" duration="1807000" />
+      <workItem from="1622083867828" duration="1781000" />
+      <workItem from="1622085684357" duration="367000" />
     </task>
     <servers />
   </component>
